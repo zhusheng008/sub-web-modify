@@ -363,7 +363,7 @@ export default {
             options: [
              {
                 label: "ZS专用（VPS+官方优选）",
-                value: "https://raw.githubusercontent.com/zhusheng008/My-Document/refs/heads/main/CLASH_SY.ini"
+                value: "https://raw.githubusercontent.com/zhusheng008/Document/refs/heads/main/Clash.ini"
               },
             ]
           },          
@@ -799,7 +799,7 @@ export default {
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "http://oracle.zoecc.top:25500" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/zhusheng008/My-Document/refs/heads/main/CLASH_SY.ini",
+        remoteConfig: "https://raw.githubusercontent.com/zhusheng008/Document/refs/heads/main/Clash.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
@@ -1321,6 +1321,7 @@ export default {
   }
 };
 </script>
+
 
 
 
