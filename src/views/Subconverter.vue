@@ -432,6 +432,10 @@ export default {
             label: "ACL规则",
             options: [
               {
+                label: "ZS_自用版",
+                value: "https://raw.githubusercontent.com/zhusheng008/My-Document/refs/heads/main/CLASH_SY.ini"
+              },
+              {
                 label: "ACL_默认版",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
               },
@@ -1312,6 +1316,7 @@ export default {
   }
 };
 </script>
+
 
 
 
