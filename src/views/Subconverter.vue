@@ -359,6 +359,15 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "ZS专用",
+            options: [
+             {
+                label: "ZS专用（VPS+官方优选）",
+                value: "https://raw.githubusercontent.com/zhusheng008/My-Document/refs/heads/main/CLASH_SY.ini"
+              },
+            ]
+          },          
+          {
             label: "CM规则",
             options: [
               {
@@ -431,10 +440,6 @@ export default {
           {
             label: "ACL规则",
             options: [
-              {
-                label: "ZS_自用版",
-                value: "https://raw.githubusercontent.com/zhusheng008/My-Document/refs/heads/main/CLASH_SY.ini"
-              },
               {
                 label: "ACL_默认版",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
@@ -794,7 +799,7 @@ export default {
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "http://oracle.zoecc.top:25500" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
+        remoteConfig: "https://raw.githubusercontent.com/zhusheng008/My-Document/refs/heads/main/CLASH_SY.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
@@ -1316,6 +1321,7 @@ export default {
   }
 };
 </script>
+
 
 
 
