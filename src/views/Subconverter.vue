@@ -799,7 +799,7 @@ export default {
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "http://oracle.zoecc.top:25500" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/zhusheng008/Document/refs/heads/main/Clash.ini",
+        remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
@@ -1321,6 +1321,7 @@ export default {
   }
 };
 </script>
+
 
 
 
