@@ -338,7 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "ZS自用专属后端": "http://oracle.zoecc.top:25500",
+          "自用专属后端": "http://oracle.zoecc.top:25500",
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -359,10 +359,10 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "ZS专用",
+            label: "自用",
             options: [
              {
-                label: "ZS专用（VPS+官方优选）",
+                label: "自用VPS+CF优选(与Github同步)",
                 value: "https://raw.githubusercontent.com/zhusheng008/Document/refs/heads/main/Clash.ini"
               },
             ]
@@ -1321,6 +1321,7 @@ export default {
   }
 };
 </script>
+
 
 
 
